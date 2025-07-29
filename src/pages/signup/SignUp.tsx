@@ -41,7 +41,7 @@ function SignUp() {
 
         try {
             const response = await axios.post(
-                "http://localhost:3000/auth/register",
+                "http://https://server-pcb1.onrender.com/api/auth/register",
                 { username, password },
                 { withCredentials: true }
             );
