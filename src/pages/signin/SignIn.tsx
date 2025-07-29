@@ -19,7 +19,7 @@ function SignIn() {
     useEffect(() => {
         const verifyToken = async () => {
             try {
-                const response = await axios.get("https://server-pcb1.onrender.com/auth/verify", {
+                const response = await axios.get("https://server-pcb1.onrender.com/api/auth/verify", {
                     withCredentials: true,
                 });
 
